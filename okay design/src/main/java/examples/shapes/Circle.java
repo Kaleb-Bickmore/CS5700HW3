@@ -73,8 +73,10 @@ public class Circle extends Shape {
     /**
      * @return  The area of the circle.
      */
-    public double computeArea() {
+    @Override
+    public double getArea() {
         return Math.PI * Math.pow(xAxisRadius, 2);
     }
+
 
 }

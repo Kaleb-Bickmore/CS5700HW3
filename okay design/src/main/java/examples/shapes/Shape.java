@@ -5,7 +5,7 @@ package examples.shapes;
  *
  *  This represents an arbitrary shape. All shape types inherit from this abstract class.
  */
-public abstract class Shape{
+public abstract class Shape implements ShapeComponent{
 
     private Point center;
 
@@ -15,17 +15,31 @@ public abstract class Shape{
      * @throws ShapeException throws exception if the position is invalid
      */
     public Shape(Point point) throws ShapeException {
-        if( point == null)
+        if (point == null)
             throw new ShapeException("Invalid center point");
         center = point;
     }
+    @Override
+    public void add(ShapeComponent myShape) {
+        throw new UnsupportedOperationException();
+    }
+    @Override
+    public void delete(ShapeComponent myShape) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void deleteAll() {
+        throw new UnsupportedOperationException();
+    }
+
     /**
      * Move the Shape
      * @param deltaX            a delta change for the x-location of center of the circle
      * @param deltaY            a delta change for the y-location of center of the circle
      * @throws ShapeException   Exception thrown if either the delta x or y are not valid doubles
      */
-
+    @Override
     public void move(double deltaX, double deltaY) throws ShapeException {
         center.move(deltaX, deltaY);
     }

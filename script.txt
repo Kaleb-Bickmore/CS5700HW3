@@ -1,0 +1,9 @@
+Square,4,2,2
+Triangle,4,2,2
+Rectangle,4,6,4,4
+composite,4
+Square,4,2,2
+Triangle,4,2,2
+Rectangle,4,6,4,4
+embeddedImage,C:/fileLocation,20
+Square,4,2,2

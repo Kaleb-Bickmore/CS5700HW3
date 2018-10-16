@@ -8,7 +8,7 @@ package examples.shapes;
  *
  */
 @SuppressWarnings("WeakerAccess")
-public class Line {
+public class Line implements ShapeComponent{
 
     private Point point1;
     private Point point2;
@@ -56,6 +56,27 @@ public class Line {
      */
     public Point getPoint2() { return point2; }
 
+    @Override
+    public void add() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void delete() {
+
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public double getArea() {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void deleteAll() {
+        throw new UnsupportedOperationException();
+    }
+
     /**
      * Move a line
      *
@@ -63,6 +84,7 @@ public class Line {
      * @param deltaY            The delta y-location by which the line should be moved -- must be a valid double
      * @throws ShapeException   Exception throw if any parameter is invalid
      */
+    @Override
     public void move(double deltaX, double deltaY) throws ShapeException {
         point1.move(deltaX, deltaY);
         point2.move(deltaX, deltaY);
