@@ -1,15 +1,18 @@
 package examples.shapes;
 
+import java.awt.*;
+import java.io.*;
+
 /**
  *  Rectangle
  *
  *  This class represents a rectangle. This class expands on the square class and implements new methods.
  */
-public class Rectangle extends Shape {
+public class Rectangle implements Shape {
     private double height;
     private double width;
     private Point[] vertices;
-
+    private Point center;
     /**
      *
      * @param center center position of the rectangle
@@ -18,7 +21,9 @@ public class Rectangle extends Shape {
      * @throws ShapeException throws exception if either height or width are invalid
      */
     public Rectangle(Point center,double height, double width)throws ShapeException{
-        super(center);
+        if (center == null)
+            throw new ShapeException("Invalid center point");
+        this.center = center;
         Validator.validatePositiveDouble(width,"Invalid width");
         this.width=width;
         this.height=height;
@@ -30,25 +35,17 @@ public class Rectangle extends Shape {
         this.vertices=allVertices;
     }
 
-    /**
-     *
-     * @param x x coordinate of the recctangle's position
-     * @param y y coordinate of the recctangle's position
-     * @param height height of the rectangle
-     * @param width width of the rectangle
-     * @throws ShapeException throws exception if either height or width are invalid
-     */
-    public Rectangle(double x, double y,double height, double width)throws ShapeException{
-        super(new Point(x,y));
-        Point center = new Point(x,y);
-        Validator.validatePositiveDouble(width,"Invalid width");
-        this.width=width;
-        Point point1 = new Point(center.getX()+(width/2),center.getY()+(height/2));
-        Point point2 = new Point(center.getX()+(width/2),center.getY()-(height/2));
-        Point point3 = new Point(center.getX()-(width/2),center.getY()-(height/2));
-        Point point4 = new Point(center.getX()-(width/2),center.getY()+(height/2));
-        Point[] allVertices={point1,point2,point3,point4};
-        this.vertices=allVertices;
+
+
+    @Override
+    public void add(Shape myShape) {
+        throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void delete(Shape myShape) {
+        throw new UnsupportedOperationException();
+
     }
 
     /**
@@ -56,6 +53,22 @@ public class Rectangle extends Shape {
      * @return area of the rectangle
      */
     public double getArea(){return width*height;}
+
+    @Override
+    public void deleteAll() {
+        throw new UnsupportedOperationException();
+
+    }
+
+    /**
+     *
+     * @param G the graphics that where we will draw our rectangle
+     */
+    @Override
+    public void draw(Graphics G) {
+        G.drawRect((int)this.center.getX(),(int)this.center.getY(),(int)this.width,(int)this.height);
+
+    }
 
     /**
      *
@@ -116,7 +129,7 @@ public class Rectangle extends Shape {
     public void setCenter(Point center)throws ShapeException{
         if (center == null)
             throw new ShapeException("Invalid center");
-        super.setCenter(center);
+        this.center = center;
         Point point1 = new Point(center.getX()-(width/2),center.getY()-(height/2));
         Point point2 = new Point(center.getX()-(width/2),center.getY()+(height/2));
         Point point3 = new Point(center.getX()+(width/2),center.getY()+(height/2));
@@ -141,4 +154,25 @@ public class Rectangle extends Shape {
 
     }
 
+    /**
+     *
+     * @return the center of our rectangle
+     */
+    @Override
+    public Point getCenter() {
+        return this.center;
+    }
+
+    /**
+     *
+     * @param fileLocation the location that we want to save the rectangle to
+     */
+    @Override
+    public void save(File fileLocation) throws IOException {
+        FileWriter fw = new FileWriter(fileLocation.getPath(),fileLocation.exists());
+        BufferedWriter bw = new BufferedWriter(fw);
+        PrintWriter pw = new PrintWriter(bw);
+        pw.println("rectangle,"+this.center.getX()+","+this.center.getY()+","+this.height+","+this.width);
+        pw.close();
+    }
 }

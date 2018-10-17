@@ -13,7 +13,7 @@ public class CircleTest {
         assertSame(center, myCircle.getCenter());
         assertEquals(5, myCircle.getXAxisRadius(), 0);
 
-        myCircle = new Circle(1.3, 2.6, 2.5);
+        myCircle = new Circle(new Point(1.3, 2.6), 2.5);
         assertEquals(1.3, myCircle.getCenter().getX(), 0);
         assertEquals(2.6, myCircle.getCenter().getY(), 0);
         assertEquals(2.5, myCircle.getXAxisRadius(), 0);
@@ -26,7 +26,7 @@ public class CircleTest {
             new Circle(null, 2.5);
             fail("Expected exception not thrown");
         } catch (ShapeException e) {
-            assertEquals("Invalid center point", e.getMessage());
+            assertEquals("Invalid center", e.getMessage());
         }
 
         try {
@@ -50,69 +50,6 @@ public class CircleTest {
             assertEquals("Invalid xAxisRadius", e.getMessage());
         }
 
-        try {
-            new Circle(Double.POSITIVE_INFINITY, 2, 3);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid x-location", e.getMessage());
-        }
-
-        try {
-            new Circle(Double.NEGATIVE_INFINITY, 2, 3);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid x-location", e.getMessage());
-        }
-
-        try {
-            new Circle(Double.NaN, 2, 3);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid x-location", e.getMessage());
-        }
-
-        try {
-            new Circle(1, Double.POSITIVE_INFINITY, 3);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid y-location", e.getMessage());
-        }
-
-        try {
-            new Circle(1, Double.NEGATIVE_INFINITY, 3);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid y-location", e.getMessage());
-        }
-
-        try {
-            new Circle(1, Double.NaN, 3);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid y-location", e.getMessage());
-        }
-
-
-        try {
-            new Circle(1, 2, Double.POSITIVE_INFINITY);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid xAxisRadius", e.getMessage());
-        }
-
-        try {
-            new Circle(1, 2, Double.NEGATIVE_INFINITY);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid xAxisRadius", e.getMessage());
-        }
-
-        try {
-            new Circle(1, 2, Double.NaN);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid xAxisRadius", e.getMessage());
-        }
 
     }
     @Test
@@ -125,7 +62,8 @@ public class CircleTest {
     }
     @Test
     public void testMove() throws Exception {
-        Circle myCircle = new Circle(1, 2, 5);
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
         assertEquals(1, myCircle.getCenter().getX(), 0);
         assertEquals(2, myCircle.getCenter().getY(), 0);
         assertEquals(5, myCircle.getXAxisRadius(), 0);
@@ -154,14 +92,14 @@ public class CircleTest {
             myCircle.move(Double.POSITIVE_INFINITY, 1);
             fail("Expected exception not thrown");
         } catch (ShapeException e) {
-            assertEquals("Invalid delta-x value", e.getMessage());
+            assertEquals("Invalid x-location", e.getMessage());
         }
 
         try {
             myCircle.move(Double.NEGATIVE_INFINITY, 1);
             fail("Expected exception not thrown");
         } catch (ShapeException e) {
-            assertEquals("Invalid delta-x value", e.getMessage());
+            assertEquals("Invalid x-location", e.getMessage());
             // ignore
         }
 
@@ -169,35 +107,36 @@ public class CircleTest {
             myCircle.move(Double.NaN, 1);
             fail("Expected exception not thrown");
         } catch (ShapeException e) {
-            assertEquals("Invalid delta-x value", e.getMessage());
+            assertEquals("Invalid x-location", e.getMessage());
         }
 
         try {
             myCircle.move(1, Double.POSITIVE_INFINITY);
             fail("Expected exception not thrown");
         } catch (ShapeException e) {
-            assertEquals("Invalid delta-y value", e.getMessage());
+            assertEquals("Invalid y-location", e.getMessage());
         }
 
         try {
             myCircle.move(1, Double.NEGATIVE_INFINITY);
             fail("Expected exception not thrown");
         } catch (ShapeException e) {
-            assertEquals("Invalid delta-y value", e.getMessage());
+            assertEquals("Invalid y-location", e.getMessage());
         }
 
         try {
             myCircle.move(1, Double.NaN);
             fail("Expected exception not thrown");
         } catch (ShapeException e) {
-            assertEquals("Invalid delta-y value", e.getMessage());
+            assertEquals("Invalid y-location", e.getMessage());
         }
 
     }
 
     @Test
     public void testScale() throws ShapeException {
-        Circle myCircle = new Circle(1, 2, 5);
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
         assertEquals(1, myCircle.getCenter().getX(), 0);
         assertEquals(2, myCircle.getCenter().getY(), 0);
         assertEquals(5, myCircle.getXAxisRadius(), 0);
@@ -237,19 +176,22 @@ public class CircleTest {
 
     @Test
     public void testComputeArea() throws ShapeException {
-        Circle myCircle = new Circle(1, 2, 5);
-        assertEquals(78.53975, myCircle.computeArea(), 0.0001);
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
+        assertEquals(78.53975, myCircle.getArea(), 0.0001);
 
-        myCircle = new Circle(1, 2, 4.234);
-        assertEquals(56.3185174, myCircle.computeArea(), 0.0001);
+        myCircle = new Circle(center, 4.234);
+        assertEquals(56.3185174, myCircle.getArea(), 0.0001);
 
-        myCircle = new Circle(1, 2, 0);
-        assertEquals(0, myCircle.computeArea(), 0);
+        myCircle = new Circle(center, 0);
+        assertEquals(0, myCircle.getArea(), 0);
 
     }
     @Test
     public void testSetXAxisRadius() throws ShapeException {
-        Circle myCircle = new Circle(1, 2, 5);
+        Point center = new Point(1,2);
+
+        Circle myCircle = new Circle(center, 5);
         try {
             myCircle.setXAxisRadius(Double.POSITIVE_INFINITY);
             fail("Expected exception not thrown");
@@ -274,16 +216,18 @@ public class CircleTest {
     }
     @Test
     public void testGetXAxisRadius() throws ShapeException {
-        Circle myCircle = new Circle(1, 2, 5);
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
         assertEquals(5,myCircle.getXAxisRadius(),0);
-        Circle myCircle2 = new Circle(1, 2, 0);
+        Circle myCircle2 = new Circle(center, 0);
         assertEquals(0,myCircle2.getXAxisRadius(),0);
-        Circle myCircle3 = new Circle(1, 2, 1.023454);
+        Circle myCircle3 = new Circle(center, 1.023454);
         assertEquals(1.023454,myCircle3.getXAxisRadius(),0.000001);
     }
     @Test
     public void testSetCenter()throws ShapeException{
-        Circle myCircle = new Circle(1, 2, 5);
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
         myCircle.setCenter(new Point(3,2));
         assertEquals(myCircle.getCenter().getX(),3,0);
         assertEquals(myCircle.getCenter().getY(),2,0);
@@ -296,7 +240,8 @@ public class CircleTest {
     }
     @Test
     public void testGetCenter() throws ShapeException{
-        Circle myCircle = new Circle(1, 2, 5);
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
         assertEquals(myCircle.getCenter().getX(),1,0);
         assertEquals(myCircle.getCenter().getY(),2,0);
 

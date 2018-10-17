@@ -10,7 +10,7 @@ public class RectangleTest {
         Point center = new Point(1, 2);
         Rectangle myRectangle = new Rectangle(center, 5, 7);
         assertEquals(7, myRectangle.getWidth(), 0);
-        myRectangle = new Rectangle(1.3, 2.6, 2.5, 7.3);
+        myRectangle = new Rectangle(new Point(1.3, 2.6), 2.5, 7.3);
         assertEquals(7.3, myRectangle.getWidth(), 0);
     }
 

@@ -1,9 +1,8 @@
-Square,4,2,2
-Triangle,4,2,2
-Rectangle,4,6,4,4
-composite,4
-Square,4,2,2
-Triangle,4,2,2
-Rectangle,4,6,4,4
-embeddedImage,C:/fileLocation,20
-Square,4,2,2
+composite,60,60,3
+circle,-1,-2,23
+circle,3,1,23
+circle,12,12,23
+circle,50,34,23
+circle,12,22,23
+circle,32,43,23
+circle,20,60,23

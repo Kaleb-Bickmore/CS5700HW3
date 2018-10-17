@@ -1,5 +1,8 @@
 package examples.shapes;
 
+import java.awt.*;
+import java.io.*;
+
 /**
  *  Ellipse
  *
@@ -7,20 +10,6 @@ package examples.shapes;
  */
 public class Ellipse extends Circle {
     private double yAxisRadius;
-
-    /**
-     *
-     * @param x             x coordinate of the ellipses position
-     * @param y             y coordinate of the ellipses position
-     * @param xAxisRadius   xAxis radius of the ellipse
-     * @param yAxisRadius   yAxis radius of the ellipse
-     * @throws ShapeException throws exception if y axis radius is invalid
-     */
-    public Ellipse(double x, double y, double xAxisRadius, double yAxisRadius) throws ShapeException {
-        super(new Point(x,y),xAxisRadius);
-        Validator.validatePositiveDouble(yAxisRadius, "Invalid yAxisRadius");
-        this.yAxisRadius = yAxisRadius;
-    }
 
     /**
      *
@@ -83,5 +72,20 @@ public class Ellipse extends Circle {
      */
     public double computeArea() {
         return Math.PI * this.getXAxisRadius() * this.yAxisRadius;
+    }
+
+    public void save(File fileLocation) throws IOException {
+        FileWriter fw = new FileWriter(fileLocation.getPath(),fileLocation.exists());
+        BufferedWriter bw = new BufferedWriter(fw);
+        PrintWriter pw = new PrintWriter(bw);
+        pw.println("ellipse,"+this.center.getX()+","+this.center.getY()+","+super.getXAxisRadius()+","+this.yAxisRadius);
+        pw.close();
+
+    }
+    @Override
+    public void draw(Graphics G){
+        G.drawOval((int)this.center.getX(),(int)this.center.getY(),
+                (int)(this.getXAxisRadius()*2), (int)(this.getYAxisRadius()*2));
+
     }
 }

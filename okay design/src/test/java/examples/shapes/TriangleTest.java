@@ -93,13 +93,17 @@ public class TriangleTest {
         Point point2 = new Point(0,2);
         Point point3 = new Point(2,0);
         Triangle myTriangle= new Triangle(point1,point2,point3);
-        try{
-            myTriangle.setCenter(new Point(1,2));
-            fail("expected exception not thrown");
-        }catch(ShapeException e){
-            assertEquals("cannot set center of triangle",e.getMessage());
+        Point center = myTriangle.getCenter();
+        myTriangle.setCenter(center);
+        assertEquals(center.getX(),myTriangle.getCenter().getX(),0);
+        assertEquals(center.getY(),myTriangle.getCenter().getY(),0);
+        center = new Point(center.getX()+1,center.getY()+1);
+        myTriangle.setCenter(center);
+        assertEquals(center.getX(),myTriangle.getCenter().getX(),0);
+        assertEquals(center.getY(),myTriangle.getCenter().getY(),0);
 
-        }
+
+
 
     }
 }

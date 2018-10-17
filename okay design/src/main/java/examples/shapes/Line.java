@@ -1,5 +1,8 @@
 package examples.shapes;
 
+import java.awt.*;
+import java.io.*;
+
 /**
  *
  *  Line
@@ -8,8 +11,8 @@ package examples.shapes;
  *
  */
 @SuppressWarnings("WeakerAccess")
-public class Line implements ShapeComponent{
-
+public class Line implements Shape {
+    private Point center;
     private Point point1;
     private Point point2;
 
@@ -27,6 +30,7 @@ public class Line implements ShapeComponent{
 
         if (computeLength() < 0.00000001)
             throw new ShapeException("A line must have a length > 0");
+        center = new Point((x1+x2)/2,(y1+y2)/2);
     }
 
     /**
@@ -56,15 +60,16 @@ public class Line implements ShapeComponent{
      */
     public Point getPoint2() { return point2; }
 
+
     @Override
-    public void add() {
-        throw new UnsupportedOperationException();
+    public void add(Shape myShape) {
+        throw  new UnsupportedOperationException();
     }
 
     @Override
-    public void delete() {
+    public void delete(Shape myShape) {
+        throw  new UnsupportedOperationException();
 
-        throw new UnsupportedOperationException();
     }
 
     @Override
@@ -75,6 +80,11 @@ public class Line implements ShapeComponent{
     @Override
     public void deleteAll() {
         throw new UnsupportedOperationException();
+    }
+
+    @Override
+    public void draw(Graphics G) {
+        G.drawLine((int)this.point1.getX(),(int)this.point1.getY(),(int)this.point2.getX(),(int)this.point2.getY());
     }
 
     /**
@@ -88,6 +98,28 @@ public class Line implements ShapeComponent{
     public void move(double deltaX, double deltaY) throws ShapeException {
         point1.move(deltaX, deltaY);
         point2.move(deltaX, deltaY);
+        this.center = new Point(this.center.getX()+deltaX,this.center.getY()+deltaY);
+    }
+
+    @Override
+    public Point getCenter() {
+        return this.center;
+    }
+
+    @Override
+    public void setCenter(Point center)throws ShapeException  {
+        double deltaX = center.getX()-this.center.getX();
+        double deltaY = center.getY() - this.center.getY();
+        this.move(deltaX,deltaY);
+    }
+
+    @Override
+    public void save(File fileLocation) throws IOException {
+        FileWriter fw = new FileWriter(fileLocation.getPath(),fileLocation.exists());
+        BufferedWriter bw = new BufferedWriter(fw);
+        PrintWriter pw = new PrintWriter(bw);
+        pw.println("line,"+this.point1.getX()+","+this.point1.getY()+","+this.point2.getX()+","+this.point2.getY());
+        pw.close();
     }
 
     /**

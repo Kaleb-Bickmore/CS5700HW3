@@ -142,5 +142,20 @@ public class LineTest {
         myLine = new Line(2, 4, 2, 2);
         assertEquals(Double.NEGATIVE_INFINITY, myLine.computeSlope(), 0.1);
     }
+    @Test
+    public void testSetCenter() throws ShapeException{
+        Line myLine = new Line(0, 0, 2, 2);
+        myLine.getCenter();
+        assertEquals( myLine.getCenter().getX(),1, 0);
+        assertEquals( myLine.getCenter().getY(),1, 0);
+        myLine.setCenter(new Point(2,2));
+        assertEquals( myLine.getCenter().getX(),2, 0);
+        assertEquals( myLine.getCenter().getY(),2, 0);
+        assertEquals( myLine.getPoint1().getX(),1, 0);
+        assertEquals( myLine.getPoint1().getY(),1, 0);
+        assertEquals( myLine.getPoint2().getX(),3, 0);
+        assertEquals( myLine.getPoint2().getY(),3, 0);
+
+    }
 
 }

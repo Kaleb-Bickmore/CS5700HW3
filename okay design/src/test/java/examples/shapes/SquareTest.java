@@ -10,7 +10,7 @@ public class SquareTest {
         Point center = new Point(1,2);
         Square mySquare = new Square(center, 5);
         assertEquals(5, mySquare.getSize(), 0);
-        mySquare = new Square(1.3, 2.6, 2.5);
+        mySquare = new Square(new Point(1.3, 2.6), 2.5);
         assertEquals(2.5, mySquare.getSize(), 0);
     }
 
