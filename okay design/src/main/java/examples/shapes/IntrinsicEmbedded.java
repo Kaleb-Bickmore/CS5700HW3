@@ -5,9 +5,7 @@ import java.io.File;
 
 public class IntrinsicEmbedded extends EmbeddedImage {
     private String imageLoc;
-    public IntrinsicEmbedded(String imageLoc){
-        this.imageLoc = imageLoc;
-    }
+    public IntrinsicEmbedded(String imageLoc){ this.imageLoc = imageLoc; }
 
     @Override
     public double getArea() {

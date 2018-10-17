@@ -70,7 +70,8 @@ public class Ellipse extends Circle {
     /**
      * @return  The area of the ellipse.
      */
-    public double computeArea() {
+    @Override
+    public double getArea() {
         return Math.PI * this.getXAxisRadius() * this.yAxisRadius;
     }
 

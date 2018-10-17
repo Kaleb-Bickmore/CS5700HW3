@@ -41,7 +41,7 @@ public class AllStateEmbedded extends EmbeddedImage {
             this.vertices = allVertices;
         }
     }
-    
+
     @Override
     public void draw(Graphics G) {
         final BufferedImage image;
@@ -76,8 +76,8 @@ public class AllStateEmbedded extends EmbeddedImage {
         pw.close();
 
     }
-
-    private Object getSize() {
+    public Point[] getVertices(){return vertices;}
+    public double getSize() {
         return this.size;
     }
 

@@ -247,4 +247,38 @@ public class CircleTest {
 
     }
 
+    @Test
+    public void add() throws ShapeException {
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
+        try{
+            myCircle.add(myCircle);
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+    }
+
+    @Test
+    public void delete() throws ShapeException {
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
+        try{
+            myCircle.delete(myCircle);
+        }catch (UnsupportedOperationException e){
+        assertNull(e.getMessage());
+        }
+    }
+
+    @Test
+    public void deleteAll() throws ShapeException {
+        Point center = new Point(1,2);
+        Circle myCircle = new Circle(center, 5);
+        try{
+            myCircle.deleteAll();
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+    }
 }
+
+

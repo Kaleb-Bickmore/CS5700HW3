@@ -133,4 +133,40 @@ public class SquareTest {
         }
 
     }
+
+    @Test
+    public void add() throws ShapeException {
+        Point center = new Point(0,0);
+        Square mySquare = new Square(center, 2);
+        try{
+            mySquare.add(new Square(center,12));
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+    }
+
+    @Test
+    public void delete() throws ShapeException {
+        Point center = new Point(0,0);
+        Square mySquare = new Square(center, 2);
+        try{
+            mySquare.delete(new Square(center,12));
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+
+    }
+
+    @Test
+    public void deleteAll() throws ShapeException {
+        Point center = new Point(0,0);
+        Square mySquare = new Square(center, 2);
+
+        try{
+            mySquare.deleteAll();
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+    }
+
 }

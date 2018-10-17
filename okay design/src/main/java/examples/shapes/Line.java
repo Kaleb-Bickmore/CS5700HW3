@@ -17,23 +17,6 @@ public class Line implements Shape {
     private Point point2;
 
     /**
-     * Constructor based on x-y Locations
-     * @param x1                The x-location of first point -- must be a valid double.
-     * @param y1                The y-location of first point -- must be a valid double.
-     * @param x2                The x-location of second point -- must be a valid double.
-     * @param y2                The y-location of second point -- must be a valid double.
-     * @throws ShapeException   Exception throw if any parameter is invalid
-     */
-    public Line(double x1, double y1, double x2, double y2) throws ShapeException {
-        point1 = new Point(x1, y1);
-        point2 = new Point(x2, y2);
-
-        if (computeLength() < 0.00000001)
-            throw new ShapeException("A line must have a length > 0");
-        center = new Point((x1+x2)/2,(y1+y2)/2);
-    }
-
-    /**
      *
      * @param point1            The first point -- must not be null
      * @param point2            The second point -- must not b e null
@@ -45,7 +28,7 @@ public class Line implements Shape {
 
         this.point1 = point1;
         this.point2 = point2;
-
+        this.center = new Point((point1.getX()+point2.getX())/2,(point1.getY()+point2.getY())/2);
         if (computeLength() < 0.00000001)
             throw new ShapeException("A line must have a length > 0");
     }
@@ -74,7 +57,7 @@ public class Line implements Shape {
 
     @Override
     public double getArea() {
-        throw new UnsupportedOperationException();
+        return 0;
     }
 
     @Override

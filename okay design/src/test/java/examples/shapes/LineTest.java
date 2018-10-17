@@ -21,15 +21,10 @@ public class LineTest {
         assertSame(p1, myLine.getPoint1());
         assertSame(p2, myLine.getPoint2());
 
-        myLine = new Line(1, 3.33, 4.444, 5.5555);
-        assertEquals(1, myLine.getPoint1().getX(), 0);
-        assertEquals(3.33, myLine.getPoint1().getY(), 0);
-        assertEquals(4.444, myLine.getPoint2().getX(), 0);
-        assertEquals(5.5555, myLine.getPoint2().getY(), 0);
     }
     @Test
     public void testInvalidConstruction() throws Exception {
-        Point p1 = new Point(1,2);
+        Point p1 = new Point(1, 2);
         Point p2 = new Point(4, 10);
 
         try {
@@ -46,33 +41,6 @@ public class LineTest {
             assertEquals("Invalid Point", e.getMessage());
         }
 
-        try {
-            new Line(Double.POSITIVE_INFINITY, 2, 3, 4);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid x-location", e.getMessage());
-        }
-
-        try {
-            new Line(1, Double.POSITIVE_INFINITY, 3, 4);
-            fail("Expected exception not thrown");
-        } catch (Exception e) {
-            assertEquals("Invalid y-location", e.getMessage());
-        }
-
-        try {
-            new Line(1, 2, Double.POSITIVE_INFINITY, 4);
-            fail("Expected exception not thrown");
-        } catch (Exception e) {
-            assertEquals("Invalid x-location", e.getMessage());
-        }
-
-        try {
-            new Line(1, 2, 3, Double.POSITIVE_INFINITY);
-            fail("Expected exception not thrown");
-        } catch (ShapeException e) {
-            assertEquals("Invalid y-location", e.getMessage());
-        }
 
         try {
             new Line(p1, p1);
@@ -80,18 +48,10 @@ public class LineTest {
         } catch (ShapeException e) {
             assertEquals("A line must have a length > 0", e.getMessage());
         }
-
-        try {
-            new Line(1,2, 1,2);
-            fail("Expected exception not thrown");
-        } catch (Exception e) {
-            assertEquals("A line must have a length > 0", e.getMessage());
-        }
     }
-
     @Test
     public void testMove() throws ShapeException {
-        Line myLine = new Line(1, 2, 4, 10);
+        Line myLine = new Line(new Point(1, 2),new Point( 4, 10));
 
         myLine.move(3, 4);
         assertEquals(4, myLine.getPoint1().getX(), 0);
@@ -115,36 +75,29 @@ public class LineTest {
     @Test
     public void testComputeLength() throws ShapeException {
 
-        Line myLine = new Line(1, 2, 4, 10);
+        Line myLine = new Line(new Point(1, 2),new Point( 4, 10));
         assertEquals(8.544, myLine.computeLength(), 0.001);
 
-        myLine = new Line(1, 2, 1, 3);
+        myLine = new Line(new Point(1, 2),new Point( 1, 3));
         assertEquals(Math.sqrt(1), myLine.computeLength(), 0.001);
 
-        myLine = new Line(3, -2, -4, 10);
-        assertEquals(13.892, myLine.computeLength(), 0.001);
     }
 
     @Test
     public void testComputeSlope() throws ShapeException {
-        Line myLine = new Line(2, 2, 4, 10);
+        Line myLine = new Line(new Point(2, 2),new Point( 4, 10));
         assertEquals(4.0, myLine.computeSlope(), 0.1);
 
-        myLine = new Line(2, 2, 10, 4);
-        assertEquals(0.25, myLine.computeSlope(), 0.1);
 
-        myLine = new Line(2, 2, 4, 2);
-        assertEquals(0, myLine.computeSlope(), 0.1);
-
-        myLine = new Line(2, 2, 2, 4);
+        myLine = new Line(new Point(2, 2),new Point( 2, 4));
         assertEquals(Double.POSITIVE_INFINITY, myLine.computeSlope(), 0.1);
 
-        myLine = new Line(2, 4, 2, 2);
+        myLine = new Line(new Point(2, 4 ),new Point(2, 2));
         assertEquals(Double.NEGATIVE_INFINITY, myLine.computeSlope(), 0.1);
     }
     @Test
     public void testSetCenter() throws ShapeException{
-        Line myLine = new Line(0, 0, 2, 2);
+        Line myLine = new Line(new Point(0, 0),new Point( 2, 2));
         myLine.getCenter();
         assertEquals( myLine.getCenter().getX(),1, 0);
         assertEquals( myLine.getCenter().getY(),1, 0);
@@ -156,6 +109,41 @@ public class LineTest {
         assertEquals( myLine.getPoint2().getX(),3, 0);
         assertEquals( myLine.getPoint2().getY(),3, 0);
 
+    }
+    @Test
+    public void addTest() throws ShapeException {
+        Line myLine = new Line(new Point(0, 0),new Point( 2, 2));
+        try{
+            myLine.add(new Square(new Point(1,1),23));
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+    }
+
+    @Test
+    public void deleteTest() throws ShapeException {
+        Line myLine = new Line(new Point(0, 0),new Point( 2, 2));
+        try{
+            myLine.delete(new Square(new Point(1,1),23));
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+    }
+
+    @Test
+    public void getAreaTest() throws ShapeException {
+        Line myLine = new Line(new Point(0, 0),new Point( 2, 2));
+        assertEquals(myLine.getArea(),0,0);
+    }
+
+    @Test
+    public void deleteAllTest() throws ShapeException {
+        Line myLine = new Line(new Point(0, 0),new Point( 2, 2));
+        try{
+            myLine.deleteAll();
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
     }
 
 }

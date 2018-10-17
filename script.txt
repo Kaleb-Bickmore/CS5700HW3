@@ -5,4 +5,4 @@ circle,12,12,23
 ellipse,50,34,23,56
 line,12,22,23,21
 circle,32,43,23
-embeddedimage,500,500,50,"Taco_cat.jpg"
+embeddedimage,500,500,500,"Taco_cat.jpg"

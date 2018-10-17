@@ -181,12 +181,20 @@ public class EllipseTest {
     public void computeArea() throws ShapeException {
         Point center = new Point(1,2);
         Ellipse myEllipse = new Ellipse(center, 5,5);
-        assertEquals(78.53975, myEllipse.computeArea(), 0.0001);
+        assertEquals(78.53975, myEllipse.getArea(), 0.0001);
 
         myEllipse = new Ellipse(center, 4.2,5.9);
-        assertEquals(77.84867, myEllipse.computeArea(), 0.00001);
+        assertEquals(77.84867, myEllipse.getArea(), 0.00001);
 
         myEllipse = new Ellipse(center, 0,0);
-        assertEquals(0, myEllipse.computeArea(), 0);
+        assertEquals(0, myEllipse.getArea(), 0);
+    }
+
+    @Test
+    public void save() {
+    }
+
+    @Test
+    public void draw() {
     }
 }

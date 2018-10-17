@@ -2,25 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3019036c-6807-4177-82ed-cfafa689ae20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/Taco_cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/EllipsePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/TrianglePattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/AllStateEmbeddedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/CirclePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/CompositePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/CompositeShapeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/EllipsePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/EmbeddedPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/ImageFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/IntrinsicEmbeddedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/LinePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/RectPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/SquarePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/TrianglePatternTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HW3UML.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/../HW3UML.vpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/AllStateEmbedded.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/examples/shapes/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/AllStateEmbedded.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/examples/shapes/AllStateEmbedded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/examples/shapes/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/Ellipse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/examples/shapes/Ellipse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/IntrinsicEmbedded.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/examples/shapes/IntrinsicEmbedded.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/examples/shapes/Line.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/examples/shapes/MyFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/examples/shapes/MyFrame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/examples/shapes/CircleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/examples/shapes/CircleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/examples/shapes/EllipseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/examples/shapes/EllipseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/examples/shapes/LineTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/examples/shapes/LineTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/examples/shapes/RectangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/examples/shapes/RectangleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/examples/shapes/SquareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/examples/shapes/SquareTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/examples/shapes/TriangleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/examples/shapes/TriangleTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/AllStateEmbedded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/AllStateEmbedded.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/Ellipse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/Ellipse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/IntrinsicEmbedded.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/IntrinsicEmbedded.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/Line.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/MyFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/MyFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/StrategyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/StrategyPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/circlePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/CirclePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/compositePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/CompositePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/ecllipsePattern.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/embeddedPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/EmbeddedPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/linePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/LinePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/rectPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/RectPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/squarePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/SquarePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examples/shapes/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examples/shapes/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/shapes/CircleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/CircleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/shapes/LineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/LineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/shapes/RectangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/RectangleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/shapes/SquareTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/SquareTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/examples/shapes/TriangleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/examples/shapes/TriangleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../script.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scriptOutput.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../scriptOutput.txt" afterDir="false" />
     </list>
@@ -34,16 +55,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/shapes$All_in_shapes_test.ic" NAME="All in shapes_test Coverage Results" MODIFIED="1539802182292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/shapes$TriangleTest_testSetCenter.ic" NAME="TriangleTest.testSetCenter Coverage Results" MODIFIED="1536555500067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>examples.shapes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shapes$CompositeShapeTest.ic" NAME="CompositeShapeTest Coverage Results" MODIFIED="1539803184069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/shapes$TriangleTest_testComputeArea.ic" NAME="TriangleTest.testComputeArea Coverage Results" MODIFIED="1536468521358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/shapes$IntrinsicEmbeddedTest.ic" NAME="IntrinsicEmbeddedTest Coverage Results" MODIFIED="1539803775961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>examples.shapes.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/shapes$CircleTest_testSetXAxisRadius.ic" NAME="CircleTest.testSetXAxisRadius Coverage Results" MODIFIED="1536426399946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/shapes$examples_shapes_in_shapes_test.ic" NAME="examples.shapes in shapes_test Coverage Results" MODIFIED="1539789013887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/shapes$examples_shapes_in_shapes_test.ic" NAME="examples.shapes in shapes_test Coverage Results" MODIFIED="1539805726785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/shapes$TriangleTest_testGetSideLengths.ic" NAME="TriangleTest.testGetSideLengths Coverage Results" MODIFIED="1536547906303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -58,13 +86,22 @@
     <SUITE FILE_PATH="coverage/shapes$TriangleTest_testInvalidConstruction.ic" NAME="TriangleTest.testInvalidConstruction Coverage Results" MODIFIED="1536547530941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/shapes$TriangleTest_move.ic" NAME="TriangleTest.move Coverage Results" MODIFIED="1539805567812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>examples.shapes.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/shapes$EllipseTest.ic" NAME="EllipseTest Coverage Results" MODIFIED="1536430737562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/shapes$CircleTest.ic" NAME="CircleTest Coverage Results" MODIFIED="1536426624262" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/shapes$CircleTest.ic" NAME="CircleTest Coverage Results" MODIFIED="1539797382632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>examples.shapes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shapes$LineTest.ic" NAME="LineTest Coverage Results" MODIFIED="1539804360320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/shapes$RectangleTest_testGetVertices.ic" NAME="RectangleTest.testGetVertices Coverage Results" MODIFIED="1536545976801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>examples.shapes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shapes$TriangleTest.ic" NAME="TriangleTest Coverage Results" MODIFIED="1539805684765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/shapes$SquareTest_testGetVertices.ic" NAME="SquareTest.testGetVertices Coverage Results" MODIFIED="1536546181754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -74,6 +111,9 @@
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/shapes$TriangleTest_testGetVertices.ic" NAME="TriangleTest.testGetVertices Coverage Results" MODIFIED="1536546376208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>examples.shapes.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/shapes$AllStateEmbeddedTest.ic" NAME="AllStateEmbeddedTest Coverage Results" MODIFIED="1539797051638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>examples.shapes.*</FILTER>
     </SUITE>
   </component>
@@ -156,24 +196,24 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="142" />
+          <entry key="java" value="243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="142" />
+          <entry key="JAVA" value="243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="52" />
-          <entry key="java" value="9221" />
+          <entry key="java" value="11767" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9221" />
+          <entry key="JAVA" value="11767" />
           <entry key="PLAIN_TEXT" value="52" />
         </counts>
       </usages-collector>
@@ -182,10 +222,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Ellipse.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Line.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+            <state relative-caret-position="417">
+              <caret line="66" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,10 +234,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/CompositeShape.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/LineTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="2057">
+              <caret line="123" column="27" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/MyFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,10 +255,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EllipsePattern.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/PointTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            <state relative-caret-position="-3357">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/RectangleTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="211" column="51" lean-forward="true" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Square.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,10 +285,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EmbeddedImage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/SquareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+            <state relative-caret-position="-110">
+              <caret line="141" column="45" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Triangle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="79" selection-start-line="79" selection-end-line="99" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -230,69 +306,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/AllStateEmbedded.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="46" column="76" lean-forward="true" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/MyFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/imageio/ImageIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="1387" selection-start-line="1387" selection-end-line="1387" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/LinePattern.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Line.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/TriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3192#3193#0" expanded="true" />
-                <element signature="e#3226#3227#0" expanded="true" />
-              </folding>
+              <caret line="130" column="41" lean-forward="true" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Rectangle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
+            <state>
+              <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -305,8 +331,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -700,32 +726,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/ElipseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Elipse.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTestTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/ShapeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/ValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Validator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/ShapeComponent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/embeddedImage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Main.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/RectangleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/SquareTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Point.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/CircleTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Shape.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/EmbeddedImage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/IntrinsicEmbedded.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Rectangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Circle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Ellipse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Square.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Line.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/CompositeShape.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/TriangleTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/LineTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/compositePattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/strategyPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/squarePattern.java" />
@@ -744,9 +747,36 @@
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/RectPattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/SquarePattern.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/TrianglePattern.java" />
-        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/MyFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Ellipse.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/ImageFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/examples/shapes/AllStateEmbedded.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/AllStateEmbeddedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Circle.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/CircleTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/CirclePatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/CompositePatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/EllipsePatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/EmbeddedPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/RectPatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/LinePatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/SquarePatternTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/TrianglePatternTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Client.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/ClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/CompositeShape.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/CompositeShapeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/EmbeddedImageTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/IntrinsicEmbedded.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/IntrinsicEmbeddedTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Line.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/LineTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/MyFrameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/RectangleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/examples/shapes/Square.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/SquareTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/examples/shapes/TriangleTest.java" />
       </list>
     </option>
   </component>
@@ -783,6 +813,48 @@
               <item name="okay design" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okay design" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okay design" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okay design" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okay design" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okay design" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shapes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="okay design" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -793,7 +865,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Kaleb/Documents/ObjectODesign/CS5700HW1/okay design/src/main/java/examples/shapes/Ellipse.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539793680906" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539805725614" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -826,29 +898,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyFrame">
-    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="examples.shapes.MyFrame" />
-      <module name="shapes_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="examples.shapes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in shapes_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shapes_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LineTest.testSetCenter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.examples.shapes in shapes_test">
+    <configuration name="MyFrameTest.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="shapes_test" />
       <extension name="coverage">
         <pattern>
@@ -857,8 +908,38 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="examples.shapes" />
-      <option name="MAIN_CLASS_NAME" value="examples.shapes.LineTest" />
-      <option name="METHOD_NAME" value="testSetCenter" />
+      <option name="MAIN_CLASS_NAME" value="examples.shapes.MyFrameTest" />
+      <option name="METHOD_NAME" value="main" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shapes_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples.shapes" />
+      <option name="MAIN_CLASS_NAME" value="examples.shapes.TriangleTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest.move" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shapes_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="examples.shapes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="examples.shapes" />
+      <option name="MAIN_CLASS_NAME" value="examples.shapes.TriangleTest" />
+      <option name="METHOD_NAME" value="move" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -895,19 +976,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MyFrameTest.main" />
       <item itemvalue="JUnit.examples.shapes in shapes_test" />
       <item itemvalue="JUnit.TriangleTest.testSetCenter" />
-      <item itemvalue="JUnit.All in shapes_test" />
-      <item itemvalue="Application.MyFrame" />
-      <item itemvalue="JUnit.LineTest.testSetCenter" />
+      <item itemvalue="JUnit.TriangleTest.move" />
+      <item itemvalue="JUnit.TriangleTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyFrame" />
         <item itemvalue="JUnit.examples.shapes in shapes_test" />
-        <item itemvalue="JUnit.LineTest.testSetCenter" />
+        <item itemvalue="JUnit.TriangleTest" />
+        <item itemvalue="JUnit.TriangleTest.move" />
         <item itemvalue="JUnit.TriangleTest.testSetCenter" />
-        <item itemvalue="JUnit.All in shapes_test" />
+        <item itemvalue="JUnit.MyFrameTest.main" />
       </list>
     </recent_temporary>
   </component>
@@ -935,44 +1016,44 @@
       <workItem from="1536785819996" duration="1968000" />
       <workItem from="1537462795902" duration="608000" />
       <workItem from="1539472815883" duration="666000" />
-      <workItem from="1539630972615" duration="37908000" />
+      <workItem from="1539630972615" duration="48862000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="examples_shapes_in_shapes_test - 2018.10.16 at 21h 16m 02s.xml">
+    <history-entry file="CompositeShapeTest - 2018.10.17 at 13h 06m 26s.xml">
+      <configuration name="CompositeShapeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IntrinsicEmbeddedTest - 2018.10.17 at 13h 16m 17s.xml">
+      <configuration name="IntrinsicEmbeddedTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest - 2018.10.17 at 13h 25m 38s.xml">
+      <configuration name="LineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineTest - 2018.10.17 at 13h 26m 02s.xml">
+      <configuration name="LineTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MyFrameTest_main - 2018.10.17 at 13h 28m 16s.xml">
+      <configuration name="MyFrameTest.main" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="examples_shapes_in_shapes_test - 2018.10.17 at 13h 34m 33s.xml">
       <configuration name="examples.shapes in shapes_test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testSetCenter - 2018.10.17 at 09h 02m 25s.xml">
+    <history-entry file="TriangleTest_testSetCenter - 2018.10.17 at 13h 43m 51s.xml">
       <configuration name="TriangleTest.testSetCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testSetCenter - 2018.10.17 at 09h 03m 36s.xml">
-      <configuration name="TriangleTest.testSetCenter" configurationId="JUnit" />
+    <history-entry file="TriangleTest_move - 2018.10.17 at 13h 44m 48s.xml">
+      <configuration name="TriangleTest.move" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TriangleTest_testSetCenter - 2018.10.17 at 09h 03m 42s.xml">
-      <configuration name="TriangleTest.testSetCenter" configurationId="JUnit" />
+    <history-entry file="TriangleTest_move - 2018.10.17 at 13h 45m 37s.xml">
+      <configuration name="TriangleTest.move" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LineTest_testSetCenter - 2018.10.17 at 09h 08m 00s.xml">
-      <configuration name="LineTest.testSetCenter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LineTest_testSetCenter - 2018.10.17 at 09h 09m 48s.xml">
-      <configuration name="LineTest.testSetCenter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LineTest_testSetCenter - 2018.10.17 at 09h 09m 55s.xml">
-      <configuration name="LineTest.testSetCenter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="examples_shapes_in_shapes_test - 2018.10.17 at 09h 10m 07s.xml">
-      <configuration name="examples.shapes in shapes_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="examples_shapes_in_shapes_test - 2018.10.17 at 09h 10m 16s.xml">
-      <configuration name="examples.shapes in shapes_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="examples_shapes_in_shapes_test - 2018.10.17 at 09h 14m 49s.xml">
-      <configuration name="examples.shapes in shapes_test" configurationId="JUnit" />
+    <history-entry file="TriangleTest_move - 2018.10.17 at 13h 46m 09s.xml">
+      <configuration name="TriangleTest.move" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92841000" />
+    <option name="totallyTimeSpent" value="103795000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -989,7 +1070,7 @@
       <window_info id="Properties Pane" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21985815" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21985815" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1002,10 +1083,10 @@
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Message Pane" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4909091" visible="true" weight="0.07583892" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4909091" weight="0.07583892" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5090909" side_tool="true" visible="true" weight="0.07583892" />
+      <window_info active="true" anchor="right" id="Coverage" order="4" sideWeight="0.5090909" side_tool="true" visible="true" weight="0.07449664" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Gradle" order="7" sideWeight="0.4979757" weight="0.3295302" />
@@ -1031,44 +1112,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Elipse.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/ShapeClass.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTestTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/ValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1598">
-          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/ShapeTest.java" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Flyweight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/ConcreteImageFlyweight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Validator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1090,126 +1133,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/SquareTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/RectangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="191" column="1" selection-start-line="191" selection-start-column="1" selection-end-line="191" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/PointTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/CircleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="130" column="44" selection-start-line="130" selection-start-column="44" selection-end-line="130" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/IntrinsicEmbedded.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="44" column="1" selection-start-line="44" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#997#998#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/TriangleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="100" column="37" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/LineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="156" column="49" selection-start-line="156" selection-start-column="49" selection-end-line="156" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Triangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="155" column="5" lean-forward="true" selection-start-line="155" selection-start-column="5" selection-end-line="155" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Square.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="87" column="7" lean-forward="true" selection-start-line="87" selection-start-column="7" selection-end-line="87" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="128" column="21" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -1217,33 +1140,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="1387" selection-start-line="1387" selection-end-line="1387" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EllipsePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EmbeddedPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/ImageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="7" />
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding>
             <element signature="e#166#189#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/RectPattern.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/ImageFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/SquarePattern.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1257,7 +1201,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/TrianglePattern.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/AllStateEmbedded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/CircleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/CirclePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/CirclePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/EmbeddedPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/RectPatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/LinePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/AllStateEmbeddedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/LinePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/TrianglePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/EllipseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/EllipsePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/RectPattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
@@ -1267,13 +1304,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/CirclePattern.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/TrianglePattern.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="113" selection-start-line="7" selection-start-column="113" selection-end-line="7" selection-end-column="113" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/SquarePattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/SquarePatternTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/ClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -1287,20 +1358,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EmbeddedPattern.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/CompositePatternTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        <state relative-caret-position="323">
+          <caret line="24" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/CompositeShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#597#598#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/LinePattern.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="491">
+          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/EmbeddedImageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EmbeddedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/CompositeShapeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/IntrinsicEmbeddedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1258">
+          <caret line="78" column="5" lean-forward="true" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/IntrinsicEmbedded.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Ellipse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1309,90 +1449,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Line.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3192#3193#0" expanded="true" />
-            <element signature="e#3226#3227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Ellipse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+        <state relative-caret-position="417">
+          <caret line="66" lean-forward="true" selection-start-line="47" selection-start-column="4" selection-end-line="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/CompositeShape.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/LineTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2057">
+          <caret line="123" column="27" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EllipsePattern.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/MyFrameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/EmbeddedImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/MyFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/imageio/ImageIO.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/PointTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="1387" selection-start-line="1387" selection-end-line="1387" />
+        <state relative-caret-position="-3357">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/AllStateEmbedded.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="46" column="76" lean-forward="true" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+        <state>
+          <caret line="39" column="4" lean-forward="true" selection-start-line="39" selection-start-column="4" selection-end-line="60" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/RectangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="211" column="51" lean-forward="true" selection-start-line="211" selection-start-column="51" selection-end-line="211" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Square.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/SquareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="141" column="45" selection-start-line="141" selection-start-column="45" selection-end-line="141" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/examples/shapes/Triangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="79" selection-start-line="79" selection-end-line="99" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/examples/shapes/TriangleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="130" column="41" lean-forward="true" selection-start-line="130" selection-start-column="41" selection-end-line="130" selection-end-column="41" />
         </state>
       </provider>
     </entry>

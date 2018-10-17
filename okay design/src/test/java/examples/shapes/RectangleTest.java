@@ -220,4 +220,41 @@ public class RectangleTest {
         }
 
     }
+
+    @Test
+    public void add() throws ShapeException {
+        Point center = new Point(0, 0);
+        Rectangle myRectangle = new Rectangle(center, 2, 4);
+            try{
+                myRectangle.add(new Square(new Point(12,1),12));
+            }catch (UnsupportedOperationException e){
+                assertNull(e.getMessage());
+
+            }
+    }
+
+    @Test
+    public void delete() throws ShapeException {
+
+        Point center = new Point(0, 0);
+        Rectangle myRectangle = new Rectangle(center, 2, 4);
+        try{
+            myRectangle.delete(new Square(new Point(1,1),20));
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+        }
+    }
+
+    @Test
+    public void deleteAll() throws ShapeException {
+        Point center = new Point(0, 0);
+        Rectangle myRectangle = new Rectangle(center, 2, 4);
+        try{
+            myRectangle.deleteAll();
+
+        }catch (UnsupportedOperationException e){
+            assertNull(e.getMessage());
+
+        }
+    }
 }

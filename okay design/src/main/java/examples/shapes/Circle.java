@@ -90,7 +90,6 @@ public class Circle implements Shape {
     public void draw(Graphics G) {
         G.drawOval((int)this.center.getX(),(int)this.center.getY(),
                 (int)(this.getXAxisRadius()*2), (int)(this.getXAxisRadius()*2));
-
     }
 
     @Override
