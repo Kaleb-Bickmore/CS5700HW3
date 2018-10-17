@@ -16,7 +16,6 @@ public class MyFrame extends JFrame {
 
     }
     private MyFrame() throws ShapeException, IOException {
-
         this.setSize(1000,1000);
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

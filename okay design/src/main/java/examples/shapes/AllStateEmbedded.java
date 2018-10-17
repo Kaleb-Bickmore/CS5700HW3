@@ -1,6 +1,8 @@
 package examples.shapes;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.*;
 
 public class AllStateEmbedded extends EmbeddedImage {
@@ -39,10 +41,18 @@ public class AllStateEmbedded extends EmbeddedImage {
             this.vertices = allVertices;
         }
     }
+    
     @Override
     public void draw(Graphics G) {
-        G.drawRect((int)this.center.getX(),(int)this.center.getY(),(int)this.size,(int)this.size);
-
+        final BufferedImage image;
+        File imageFile = new File(intrinsicState.getImageLoc().replace("\"",""));
+        System.out.print(imageFile.getAbsolutePath());
+        try {
+            image = ImageIO.read(imageFile);
+            G.drawImage(image,(int)this.center.getX(),(int)this.center.getY(),(int)this.size,(int)this.size,null);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
